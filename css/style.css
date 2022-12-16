@@ -1,0 +1,48 @@
+.header,
+.intro,
+.footer
+{
+    display: flex;
+    height: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul > li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.intro {
+    flex-direction: row;
+    font-size: 48px;
+    font-weight: 900;
+    height: 350px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.intro-left > p 
+{
+    font-size: 18px;
+    font-weight: 1;
+}
+
+div.intro-right > p 
+{
+    font-size: 18px;
+    font-weight: 1;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+}
